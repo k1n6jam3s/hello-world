@@ -1,0 +1,10 @@
+#!/bin/bash
+
+VAR1="My Foot"
+
+echo $VAR1
+
+echo "now we'll add your part..."
+echo ""
+echo "$VAR1 added to $1 makes for a weird soup."
+

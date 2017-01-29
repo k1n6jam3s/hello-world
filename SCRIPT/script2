@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if [ "$1" = "Tuna Fish" ]
+then
+   echo "Yum, I love Tuna Fish"
+else
+   echo "Aww, no tuna. But I like $1 too."
+fi

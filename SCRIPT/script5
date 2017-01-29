@@ -1,0 +1,9 @@
+#!/bin/bash
+
+for LOOP in `ls`
+do
+  echo "here is $LOOP:"
+  echo `cat $LOOP`
+  echo ""
+done
+

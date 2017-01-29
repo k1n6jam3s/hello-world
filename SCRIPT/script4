@@ -1,0 +1,8 @@
+#!/bin/bash
+
+for x in {1..9}
+do
+  echo "This is loop $x"
+done
+echo ""
+echo "All the loop are gone!"

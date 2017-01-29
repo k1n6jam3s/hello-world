@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "OK, now put the chicken in the box!"
+
+cd box > /dev/null 2>&1
+
+if [ "$?" != "0" ]
+then
+   echo "There is no box!!!!"
+else
+   echo "Ok, I'm in `pwd` with the chicken."
+fi
